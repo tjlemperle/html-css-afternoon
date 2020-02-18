@@ -123,7 +123,7 @@ button {
 }
 
 .boxes {
-
+    margin: 50px;
     display: flex;
     height: 200px;
     width: 100%;
@@ -131,7 +131,3 @@ button {
     align-items: center;
 }
 
-.box1 {
-    height: 180px;
-    width: 180px;
-}
