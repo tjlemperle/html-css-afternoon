@@ -47,18 +47,63 @@ table {
 	border-spacing: 0;
 }
 
+body {
+    font-size: 14px;
+    line-height: 16px;
+    font-family: 'Brandon Grotesque','brandon-grotesque',Helvetica,sans-serif;
+    font-weight: normal;
+}
 nav {
     width: 100%;
-    position: absolute;
+    position: fixed;
     top: 0px;
     background-color: black;
     height: 75px;
-    display: flexbox;
-    justify-content: center;
     color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+a {
+    text-decoration: none;
+}
+
+.primary-nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    margin: 0px 100px 0px 0px;
+    
     
 }
 
-.primary-nav{
-    border-color: white;
+.backPhoto {
+    height: 70vh;
+    width: 100%;
+    min-height: 400px;
+
 }
+.color {
+    color: white;
+    text-decoration: none;
+    padding: 0px 7px;
+}
+
+.color:hover  {
+    text-decoration: underline;
+}
+
+.color2 {
+    color: gray;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 0px 7px;
+}
+
+.color2:hover {
+    text-decoration: underline;
+}
+
+
